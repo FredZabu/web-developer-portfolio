@@ -1,0 +1,28 @@
+:root{
+    --heading-font: 'Prata', serif;
+    --body-font: 'Inter', sans-serif;
+    --small-bg: gray;
+    --main-bg: rgba(0, 0, 0, 0.87);
+    --margin-sm: 40px;
+    --padding-sm: 20px;
+}
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: var(--main-bg);
+}
+
+.header-section{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: var(--padding-sm);
+}
+
+@media screen and (max-width: 500px){
+    .header-section{
+        width: 100%;
+        padding-top: 5px;
+    }
+}
