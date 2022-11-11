@@ -1,6 +1,6 @@
 import React from 'react'
 import './app.css';
-import { Navbar, Header } from './components';
+import { Navbar, Header, Brand} from './components';
 
 
 const App = () => {
@@ -9,6 +9,10 @@ const App = () => {
       <div className="header-section">
         <Navbar />
         <Header />
+      </div>
+
+      <div className="brand-section">
+        <Brand />
       </div>
       
     </>

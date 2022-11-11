@@ -19,6 +19,10 @@ body{
     margin: 0 auto;
     padding-top: var(--padding-sm);
 }
+.brand-section{
+    width: 80%;
+    margin: calc(var(--margin-sm) * 1.5) auto;
+}
 
 @media screen and (max-width: 500px){
     .header-section{

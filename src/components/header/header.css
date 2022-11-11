@@ -1,0 +1,19 @@
+.header-container{
+    width: 70%;
+    margin-top:calc(var(--margin-sm) * 2) ;
+    color: white;
+}
+
+.objective{
+    font-family: var(--heading-font);
+    font-size: 64px;
+    font-weight: 100;
+}
+
+.description{
+    margin-top: 0px;
+    font-family: var(--body-font);
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.5;
+}
